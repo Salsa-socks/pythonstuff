@@ -64,7 +64,7 @@ def main():
     n = Network()
     startpos = read_pos(n.getPos())
     p = Player(startpos[0], startpos[1],100,100,(0,255,0))
-    p2 = Player(0, 0, 100,100,(0,255,0))
+    p2 = Player(0, 0, 100,100,(255,0,0))
     
     while run:
         
